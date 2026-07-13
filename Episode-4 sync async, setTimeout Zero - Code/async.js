@@ -13,8 +13,9 @@ https.get("https://dummyjson.com/products/1", (res) => {
 })
 
 setTimeout(() => {
-    console.log("Execute it after 5 seconds")
-}, 5000)
+    console.log("Execute it after 7 seconds")
+}, 7000)
+
 
 //Synchronous function
 //it will block the main thread
